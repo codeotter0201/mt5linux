@@ -13,7 +13,7 @@ authors = [
 license = { text = "MIT" }
 requires-python = ">=3.7"
 dependencies = [
-    "numpy>1.21.4",
+    "numpy>1.21.4,<2",
     "plumbum==1.7.0",
     "pyparsing==2.4.7",
     "rpyc==5.2.3",
